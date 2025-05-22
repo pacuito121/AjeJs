@@ -1,0 +1,185 @@
+body{
+    background-color: rgb(30, 30, 30);
+    display: block;
+    margin: 0;
+}
+
+#ix{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+#ix img{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+h1{
+    margin: 3px;
+    color: aliceblue;
+}
+
+.pus{
+    background-color:rgb(81, 81, 81);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.pus img{
+    width: 80%;
+}
+.pus:hover{
+    background-color: dodgerblue;
+    width: 320px;
+    height: 320px;
+    cursor: pointer;
+}
+.lnk{
+    display: none;
+    background: transparent;
+    transition: 0.5s;
+    width: 120px;
+    height: 120px;
+}
+#Foot{
+    position: fixed;
+    bottom: 0%;
+    height: 30px;
+    background-color: #242424;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+#Nup{
+    transition: 0.5s;
+}
+
+#Foot:hover #Nup{
+    display: none;
+}
+#Foot:hover{
+    height: 130px;
+    
+}
+#Foot:hover .lnk{
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.lnk img{
+    width: 100px;
+    height: 100px;
+    transition: 0.3s;
+}
+.lnk:hover{
+    border-color: rgb(255, 145, 0);
+    cursor: pointer;
+}
+.lnk:hover img{
+    width: 80px;
+    height: 80px;
+}
+.item img{
+    height: 100px;
+    width: 100px;
+    border-style: ridge;
+    border-color: #494949;
+}
+h4{
+    margin:10px;
+}
+.item{
+    background-color: #eeeeee;
+    padding: 10px;
+    border-radius:15px;
+    width: 180px;
+    height:180px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s;
+}
+.item:hover{
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 200px;
+}
+.Col{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.call{
+    border-radius: 10px;
+    background-color: coral;
+    transition: 0.5s;
+    border-style: none;
+    width: 100px;
+    height: 30px;
+}
+.call:hover{
+    background-color: indianred;
+    cursor: pointer;
+}
+#prouc{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top:20%;
+    left: 20%;
+    display: none;
+    background-color: rgb(255, 179, 80);
+    width: 600px;
+    height: 460px;
+    border-radius: 10px;
+}
+#prouc img{
+    height: 100px;
+    width: 100px;
+}
+#ox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: chocolate;
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+}
+#ox h2{
+    margin: 3px;
+}
+#ox button{
+    width: 30px;
+    height: 30px;
+}
+#oxo{
+    display: flex;
+    flex-direction: row;
+}
+#UA{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    
+}
+#UB{
+    padding: 10px;
+    height: 386px;
+    width: 500px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(196, 133, 96);
+}

@@ -1,0 +1,160 @@
+body{
+    background-color: rgb(30, 30, 30);
+    display: block;
+    margin: 0;
+}
+#ix{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+#ix img{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+h1,h3{
+    margin: 3px;
+    color: aliceblue;
+}
+.pus{
+    background-color:rgb(81, 81, 81);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.pus img{
+    width: 80%;
+}
+.pus:hover{
+    background-color: dodgerblue;
+    width: 320px;
+    height: 320px;
+    cursor: pointer;
+}
+.lnk{
+    display: none;
+    background: transparent;
+    transition: 0.5s;
+    width: 120px;
+    height: 120px;
+}
+#Foot{
+    position: fixed;
+    bottom: 0%;
+    height: 30px;
+    background-color: #242424;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+#Nup{
+    transition: 0.5s;
+}
+
+#Foot:hover #Nup{
+    display: none;
+}
+#Foot:hover{
+    height: 130px;
+    
+}
+#Foot:hover .lnk{
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.lnk img{
+    width: 100px;
+    height: 100px;
+    transition: 0.3s;
+}
+.lnk:hover{
+    border-color: rgb(255, 145, 0);
+    cursor: pointer;
+}
+.lnk:hover img{
+    width: 80px;
+    height: 80px;
+}
+#medius{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.mv{
+    width: 100px;
+    height: 100px;
+    font-size: 70px;
+    border-radius: 15px;
+    background-color: rgb(223, 236, 255);
+    border-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.mv:hover{
+    background-color: coral;
+    cursor: pointer;
+}
+.rrw{
+    width: 80px;
+    background-color: dodgerblue;
+    height: 80px;
+}
+#tab{
+    width: 200px;
+}
+#int{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#ius{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+#ius *{
+    margin: 5px;
+}
+iframe{
+    border-radius: 10px;
+    border-style: outset;
+    border-color: chocolate;
+    border: 2px 2px 2px 2px;
+}
+#more{
+    text-decoration: none;
+    display: flex;
+    transition: 0.5s;
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgb(141, 169, 197);
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    justify-content: center;
+    color: #242424;
+    transition: 0.3s;
+}
+#more:hover{
+    text-decoration: double;
+    cursor: pointer;
+    width: 240px;
+    background-color: aqua;
+}

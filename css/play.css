@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(30, 30, 30);
+    display: block;
+    margin: 0;
+}
+#ix{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+#ix img{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+h1{
+    margin: 3px;
+    color: aliceblue;
+}
+.pus{
+    background-color:rgb(81, 81, 81);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.pus img{
+    width: 80%;
+}
+.pus:hover{
+    background-color: dodgerblue;
+    width: 320px;
+    height: 320px;
+    cursor: pointer;
+}
+.lnk{
+    display: none;
+    background: transparent;
+    transition: 0.5s;
+    width: 120px;
+    height: 120px;
+}
+#Foot{
+    position: fixed;
+    bottom: 0%;
+    height: 30px;
+    background-color: #242424;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+#Nup{
+    transition: 0.5s;
+}
+
+#Foot:hover #Nup{
+    display: none;
+}
+#Foot:hover{
+    height: 130px;
+    
+}
+#Foot:hover .lnk{
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.lnk img{
+    width: 100px;
+    height: 100px;
+    transition: 0.3s;
+}
+.lnk:hover{
+    border-color: rgb(255, 145, 0);
+    cursor: pointer;
+}
+.lnk:hover img{
+    width: 80px;
+    height: 80px;
+}

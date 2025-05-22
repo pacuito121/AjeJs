@@ -1,0 +1,161 @@
+body{
+    background-color: rgb(30, 30, 30);
+    display: block;
+    margin: 0;
+
+}
+#ix{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+#ix img{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+h1{
+    margin: 3px;
+    color: aliceblue;
+}
+h2,h3{
+    margin: 3px;
+}
+.ficha{
+    background-color: sienna;
+    border-style: outset;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ficha img{
+    width: 90px;
+    height: 90px;
+}
+#AB{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#A{
+    width: 60%;
+
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+.ficha{
+    margin: 5px;
+    transition: 0.5s;
+    border-color: silver;
+}
+.ficha:hover{
+    border-color: coral;
+    background-color: rgb(255, 182, 94);
+    cursor:pointer
+}
+#B{
+    height: 440px;
+    background-color: crimson;
+    width: 650px;
+    border-radius: 15px;
+    overflow-y: scroll;
+}
+#inxo{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+}
+#txt{
+    background-color: orange;
+    width: 420px;
+    border-radius: 10px;
+    padding: 10px;
+}
+#inxo img{
+    border-style: outset;
+    margin: 5px;
+}
+
+#foto{
+    width: 120px;
+    height: 120px;
+}
+#moveSet{
+    width: 140px;
+    height: 140px;
+}
+
+.pus{
+    background-color:rgb(81, 81, 81);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.pus img{
+    width: 80%;
+}
+.pus:hover{
+    background-color: dodgerblue;
+    width: 320px;
+    height: 320px;
+    cursor: pointer;
+}
+.lnk{
+    display: none;
+    background: transparent;
+    transition: 0.5s;
+    width: 120px;
+    height: 120px;
+}
+#Foot{
+    position: fixed;
+    bottom: 0%;
+    height: 30px;
+    background-color: #242424;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+#Nup{
+    transition: 0.5s;
+}
+
+#Foot:hover #Nup{
+    display: none;
+}
+#Foot:hover{
+    height: 130px;
+    
+}
+#Foot:hover .lnk{
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.lnk img{
+    width: 100px;
+    height: 100px;
+    transition: 0.3s;
+}
+.lnk:hover{
+    border-color: rgb(255, 145, 0);
+    cursor: pointer;
+}
+.lnk:hover img{
+    width: 80px;
+    height: 80px;
+}
